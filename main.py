@@ -4,6 +4,7 @@ import sys
 def check():
     arguments = sys.argv
     if not len(arguments) == 2:
+        print('Usage: python3 main.py <path_to_book>')
         sys.exit(1)
     return arguments[1] 
 
